@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void)
+{
+    int n,i,sum=0;
+    int num[32]={0};
+    scanf("%d", &n);
+    for (i=0;i<n;i++){
+        scanf("%d", &num[i]);
+    }
+    for (i=0;i<n;i++){
+        sum= sum+num[i];
+    }
+    printf("the sum is %d", sum);
+    return 0;
+}
