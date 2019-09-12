@@ -5,7 +5,7 @@ int main (void)
     int n,i;
     char move;
     int amount;
-    freopen("10773.txt","w", stdout);
+    //freopen("10773.txt","w", stdout);
     scanf("%d%d", &A, &B);
     scanf("%d", &n);
 
